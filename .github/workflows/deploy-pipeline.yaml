@@ -1,6 +1,6 @@
 name: NodeJS CI Pipeline
 run-name: ${{ github.actor }} is running the Python CI Pipeline 🚀
-on: workflow_dispatch
+on: [push]
 jobs:
   build-push-dockerimage:
     runs-on: ubuntu-22.04
