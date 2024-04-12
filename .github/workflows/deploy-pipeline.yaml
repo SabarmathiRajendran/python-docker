@@ -1,4 +1,4 @@
-name: NodeJS CI Pipeline
+name: Python CI Pipeline
 run-name: ${{ github.actor }} is running the Python CI Pipeline 🚀
 on: [push]
 jobs:
